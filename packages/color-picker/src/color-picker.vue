@@ -1,11 +1,15 @@
 <template>
-  <div>123</div>
+  <div class="color-picker">123</div>
 </template>
 
 <script>
 export default {
-  name: "colorPicker",
-};
+  name: 'ColorPicker'
+}
 </script>
-<style>
+<style scoped>
+.color-picker {
+  color: blue;
+  background: lawngreen;
+}
 </style>

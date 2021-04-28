@@ -11,19 +11,23 @@ npm install
 
 ``` 
 
-npm run serve
+npm run serve // 项目启动
+
+npm run docs:dev // 启动vuepress文档
 ```
 
 ### Compiles and minifies for production
 
-``` 
+```
 
-npm run build
+npm run docs:build // 文档打包
+
+npm run lib // 组件打包
 ```
 
 ### Lints and fixes files
 
-``` 
+```
 
 npm run lint
 ```
@@ -32,19 +36,9 @@ npm run lint
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## directory structure
-
-### /docs
-
-Documentation
-
-### /example
-
-### packages
-
 components library
 
-``` 
+```
 
 ├── docs               # 项目文档
 │   ├── .vuepress           # vuepress 配置
@@ -52,7 +46,7 @@ components library
 │       ├── config    # vuepress配置
 │   ├── *    # 导航对应页面
 
-│   ├── packages         # 组件源码
+│   ├── packages         # 组件源码 components library
 
 │   ├── examples         # 组件实例 
 │       ├── home      # 示例目录
@@ -71,3 +65,29 @@ components library
 └── readme.md         # 项目说明
 
 ```
+
+```javascript
+ *
+ * 　　┏┓　　　┏┓+ +
+ * 　┏┛┻━━━┛┻┓ + +
+ * 　┃　　　　　　　┃ 　
+ * 　┃　　　━　　　┃ ++ + + +
+ *  ████━████ ┃+
+ * 　┃　　　　　　　┃ +
+ * 　┃　　　┻　　　┃
+ * 　┃　　　　　　　┃ + +
+ * 　┗━┓　　　┏━┛
+ * 　　　┃　　　┃
+ * 　　　┃　　　┃ + + + +
+ * 　　　┃　　　┃
+ * 　　　┃　　　┃ +  神兽保佑
+ * 　　　┃　　　┃    代码无bug　　
+ * 　　　┃　　　┃　　+
+ * 　　　┃　 　　┗━━━┓ + +
+ * 　　　┃ 　　　　　　　┣┓
+ * 　　　┃ 　　　　　　　┏┛
+ * 　　　┗┓┓┏━┳┓┏┛ + + + +
+ * 　　　　┃┫┫　┃┫┫
+ * 　　　　┗┻┛　┗┻┛+ + + +
+ *
+ ```
