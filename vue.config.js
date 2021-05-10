@@ -1,14 +1,17 @@
+const path = require('path')
+const resolve = dir => path.join(__dirname, dir);
+
 module.exports = {
   // 修改 src 目录 为 examples 目录
   lintOnSave: true,
   productionSourceMap: false,
-  //   pages: {
-  //     index: {
-  //       entry: 'examples/main.js',
-  //       template: 'public/index.html',
-  //       filename: 'index.html'
-  //     }
-  //   },
+  pages: {
+    index: {
+      entry: 'examples/main.js',
+      template: 'public/index.html',
+      filename: 'index.html'
+    }
+  },
   // 扩展 webpack 配置，使 packages 加入编译
   css: { extract: false },
   chainWebpack: config => {
@@ -23,5 +26,7 @@ module.exports = {
         // 修改它的选项...
         return options
       })
+    config.resolve.alias
+      .set('@', resolve('packages'))
   }
 }
