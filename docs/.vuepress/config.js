@@ -11,7 +11,8 @@ module.exports = {
     ],
     sidebar: [
       '/',
-      '/guide/'
+      '/guide/',
+      '/views/design/button'
     ]
   }
 }

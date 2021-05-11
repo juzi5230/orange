@@ -19,8 +19,7 @@ collapsable: false
 
 * bbb
 
-
-<script>
+<!-- <script>
   export default{
     mounted() {
       console.log('...')
@@ -62,4 +61,5 @@ collapsable: false
       })
     }
 }
-</script>
+</script> -->
+<animate-words />
