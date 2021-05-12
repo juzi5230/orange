@@ -61,8 +61,8 @@ sidebarDepth: 0
 ::: slot disabledSnippet5
 ### 代码示例如下所示：
   ::: details 查看演示代码
-  <<< @/docs/.vuepress/components/OrangeButton.vue#snippet5{1}
-  <<< @/docs/.vuepress/components/OrangeButton.vue#snippet6{1}
+  <<< @/docs/.vuepress/components/OrangeButton.vue#snippet5
+  <<< @/docs/.vuepress/components/OrangeButton.vue#snippet6
   <!-- ::: -->
 :::
 <OrangeButton></OrangeButton>
@@ -78,6 +78,5 @@ sidebarDepth: 0
 | 参数| 说明 | 类型 | 可选值 | 默认值 |
 | :------ | ------ | ------ | ------ | ------ |
 |click| 按钮点击事件 | function | - | - |
-
 
 <animate-words />

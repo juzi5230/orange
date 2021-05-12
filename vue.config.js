@@ -25,6 +25,7 @@ module.exports = {
         return options
       })
     config.resolve.alias
-      .set('@', resolve('packages'))
+      .set('@', resolve('./packages'))
+      .set('@style', resolve('./style'))
   }
 }

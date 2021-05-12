@@ -60,13 +60,13 @@ export default {
   },
   methods: {
     clickDefault() {
-      console.log('clickDefault')
+      alert('trigger click event： clickDefault')
     },
     clickInfo() {
-      console.log('clickInfo')
+      alert('trigger click event： clickInfo')
     },
     clickSuccess() {
-      console.log('clickSuccess')
+      alert('trigger click event： clickSuccess')
     }
   }
 }
