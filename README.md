@@ -9,7 +9,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 
-``` 
+```js
 
 npm run serve // 项目启动
 
@@ -18,16 +18,18 @@ npm run docs:dev // 启动vuepress文档
 
 ### Compiles and minifies for production
 
-```
+```js
 
 npm run docs:build // 文档打包
 
 npm run lib // 组件打包
+
+cloudbase framework:deploy // 文档发布到网站， https://vuepress.vuejs.org/zh/guide/deploy.html#%E4%BA%91%E5%BC%80%E5%8F%91-cloudbase
 ```
 
 ### Lints and fixes files
 
-```
+```js
 
 npm run lint
 ```

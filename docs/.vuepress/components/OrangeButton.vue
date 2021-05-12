@@ -48,6 +48,7 @@
     <orange-button class="demo-button" :type="'danger'" :size="'mini'" :disabled="true" @click="clickDefault">danger</orange-button>
     <!-- #endregion snippet5 -->
     <Content slot-key="disabledSnippet5"/>
+    <component v-if="dynamicComponent" :is="dynamicComponent"></component>
   </div>
 </template>
 
@@ -57,6 +58,16 @@ import orangeButton from '../../../packages/button'
 export default {
   components: {
     orangeButton
+  },
+  data() {
+    return {
+      dynamicComponent: null
+    }
+  },
+  mounted () {
+    import('./animate-words').then(module => {
+      this.dynamicComponent = module.default
+    })
   },
   methods: {
     clickDefault() {

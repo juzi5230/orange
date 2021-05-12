@@ -21,7 +21,9 @@ sidebarDepth: 0
   <<< @/docs/.vuepress/components/OrangeIcon.vue#snippet1
 :::
 
-<OrangeIcon/>
+<ClientOnly>
+  <OrangeIcon/>
+</ClientOnly>
 
 ## 使用方法
 
@@ -325,4 +327,3 @@ sidebarDepth: 0
 |height| icon高度 | string |  | 20px |
 |color| icon色值 | rgb / 16进制色值 |  |  |
 
-<animate-words />

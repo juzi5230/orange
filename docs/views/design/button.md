@@ -65,7 +65,9 @@ sidebarDepth: 0
   <<< @/docs/.vuepress/components/OrangeButton.vue#snippet6
   <!-- ::: -->
 :::
-<OrangeButton></OrangeButton>
+<ClientOnly>
+  <OrangeButton></OrangeButton>
+</ClientOnly>
 
 <font size=5>Attributes</font>
 | 参数| 说明 | 类型 | 可选值 | 默认值 |
@@ -79,4 +81,3 @@ sidebarDepth: 0
 | :------ | ------ | ------ | ------ | ------ |
 |click| 按钮点击事件 | function | - | - |
 
-<animate-words />

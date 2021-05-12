@@ -21,14 +21,17 @@
       <!-- #endregion snippet1 -->
     </div>
     <Content slot-key="examples-snippet"/>
+    <component v-if="dynamicComponent" :is="dynamicComponent"></component>
   </div>
 </template>
 
 <script>
 import OrangeIcon from '../../../packages/icon'
+
 export default {
   data () {
     return {
+      dynamicComponent: null,
       list: [
         {
           "icon_id": "21481848",
@@ -755,8 +758,13 @@ export default {
       ]
     }
   },
+  mounted () {
+    import('./animate-words').then(module => {
+      this.dynamicComponent = module.default
+    })
+  },
   components: {
-    OrangeIcon 
+    OrangeIcon
   }
 }
 </script>
