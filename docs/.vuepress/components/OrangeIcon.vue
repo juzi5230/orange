@@ -3,21 +3,21 @@
     <Content slot-key="colorfull-icon"/>
     <div class="icon-wrapper">
       <div class="icon-item" v-for="item in listColorfull">
-        <OrangeIcon :name="item.font_class" :width="'40px'" :height="'40px'" :color="'#ff00ff'"></OrangeIcon>
+        <orange-icon :name="item.font_class" :width="'40px'" :height="'40px'" :color="'#ff00ff'"></orange-icon>
       </div>
     </div>
     <Content slot-key="color-changeable-icon"/>
     <div class="icon-wrapper">
       <div class="icon-item" v-for="item in list">
-        <OrangeIcon :name="item.font_class" :width="'40px'" :height="'40px'"></OrangeIcon>
+        <orange-icon :name="item.font_class" :width="'40px'" :height="'40px'"></orange-icon>
       </div>
     </div>
     <Content slot-key="examples"/>
     <div>
       <!-- #region snippet1 -->
-      <OrangeIcon :name="'cishan'" :width="'50px'" :height="'50px'"></OrangeIcon>
-      <OrangeIcon :width="'50px'" :height="'50px'" :color="'#ff00ff'"></OrangeIcon>
-      <OrangeIcon :name="'cishan'" :color="'#ff00ff'"></OrangeIcon>
+      <orange-icon :name="'cishan'" :width="'50px'" :height="'50px'"></orange-icon>
+      <orange-icon :width="'50px'" :height="'50px'" :color="'#ff00ff'"></orange-icon>
+      <orange-icon :name="'cishan'" :color="'#ff00ff'"></orange-icon>
       <!-- #endregion snippet1 -->
     </div>
     <Content slot-key="examples-snippet"/>

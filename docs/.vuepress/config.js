@@ -13,7 +13,8 @@ module.exports = {
       '/',
       '/guide/',
       '/views/design/button',
-      '/views/design/icon'
+      '/views/design/icon',
+      '/views/design/layout'
     ]
   }
 }

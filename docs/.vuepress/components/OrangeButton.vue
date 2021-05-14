@@ -54,10 +54,10 @@
 
 <script>
 // #region snippet6
-import orangeButton from '../../../packages/button'
+import OrangeButton from '../../../packages/button'
 export default {
   components: {
-    orangeButton
+    OrangeButton
   },
   data() {
     return {

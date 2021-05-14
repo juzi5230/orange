@@ -322,8 +322,7 @@ sidebarDepth: 0
 <font size=5>Attributes</font>
 | 参数| 说明 | 类型 | 可选值 | 默认值 |
 | ------ | ------ | ------ | ------ | ------ |
-|name| icon名称 | string | 'shuyeu', 'hua' 等 | '' |
+|name| icon名称 | string | 'shuyeu', 'hua' 等 |  |
 |width| icon宽度 | string |  | 20px |
 |height| icon高度 | string |  | 20px |
 |color| icon色值 | rgb / 16进制色值 |  |  |
-
