@@ -14,7 +14,8 @@ module.exports = {
       '/guide/',
       '/views/design/button',
       '/views/design/icon',
-      '/views/design/layout'
+      '/views/design/layout',
+      '/views/design/loading'
     ]
   }
 }
